@@ -204,7 +204,7 @@ export default function Challenges() {
 				<LoadingSpinner isLoading={isLoading} />
 			) : (
 				<Box>
-					<Flex
+					{/* <Flex
 						border={"1px solid #1E1E23"}
 						textColor={"#FF9728"}
 						m={{ base: "1vh", md: "3vh" }}
@@ -219,7 +219,7 @@ export default function Challenges() {
 							October 27th. Get started with an easy one by filtering to the
 							social category 😎
 						</Text>
-					</Flex>
+					</Flex> */}
 					{isModerator && (
 						<Button
 							display={["none", "none", "block", "block"]}
