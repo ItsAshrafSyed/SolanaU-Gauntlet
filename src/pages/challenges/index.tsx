@@ -204,7 +204,7 @@ export default function Challenges() {
 				<LoadingSpinner isLoading={isLoading} />
 			) : (
 				<Box>
-					{/* <Flex
+					<Flex
 						border={"1px solid #1E1E23"}
 						textColor={"#FF9728"}
 						m={{ base: "1vh", md: "3vh" }}
@@ -213,13 +213,14 @@ export default function Challenges() {
 						p={"5"}
 					>
 						<Text fontFamily={"Readex Pro Variable"} fontSize={"md"}>
-							GM anon, want to take home a cash prize in this H Y P E R D R I V
-							E themed event? Complete the challenges below to earn Reputation
-							Points(RP) and fight your way to the Top 5 on the Leaderboard by
-							October 27th. Get started with an easy one by filtering to the
-							social category 😎
+							Gm students, want to win merch at Breakpoint? Complete the
+							challenges to earn points and redeem them for merch at the Publed
+							Booth and at the Student Dream Dinner at Breakpoint 2023!
+							Challenges start Oct 31st and end Nov 3rd. Win Solana University
+							stationary, Sleek cards, and a chance to get an exclusive council
+							jacket. Participate now by completing one of the challenges.
 						</Text>
-					</Flex> */}
+					</Flex>
 					{isModerator && (
 						<Button
 							display={["none", "none", "block", "block"]}

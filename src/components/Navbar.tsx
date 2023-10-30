@@ -154,8 +154,9 @@ export const Navbar = () => {
 					>
 						View Challenges
 					</Button>
-
-					<WalletConnect />
+					<Box display={{ base: "none", md: "flex" }}>
+						<WalletConnect />
+					</Box>
 				</Flex>
 			</Flex>
 		</>
